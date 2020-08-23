@@ -16,7 +16,9 @@ pip3 install -r requirements.txt
 
 Few samples and pretraiend model for VC are provided, so you can try with below command.
 
-[model download](http://gofile.me/4B76q/yobaWLDtb)
+[[model download]](http://gofile.me/4B76q/yobaWLDtb)
+
+[[samples download]](http://gofile.me/4B76q/PnqcqJYhY)
 
 ```shell
 python3 generate.py --init_from <model_path> --gpu <gpu_id> --out_dir <out_dir>
