@@ -16,6 +16,8 @@ pip3 install -r requirements.txt
 
 Few samples and pretraiend model for VC are provided, so you can try with below command.
 
+Samples contain 20 types of sentences and 7 emotions, 140 utterances in total.
+
 [[model download]](http://gofile.me/4B76q/yobaWLDtb)
 
 [[samples download]](http://gofile.me/4B76q/RkQxQuKvY)
@@ -24,6 +26,13 @@ Few samples and pretraiend model for VC are provided, so you can try with below 
 python3 generate.py --init_from <model_path> --gpu <gpu_id> --out_dir <out_dir>
 ```
 
+Below is an example of generated wav.
+
+It means the model takes contents of `(fear, 20th contents)` and style of `(anger, 2nd contents)` to make (fear, 20th contents).
+
+```shell
+pretrained_model_fea_00020_ang_00002_ang_00020_input_mel.wav
+```
 
 
 ## Training
