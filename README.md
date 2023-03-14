@@ -18,9 +18,12 @@ Few samples and pretraiend model for VC are provided, so you can try with below 
 
 Samples contain 20 types of sentences and 7 emotions, 140 utterances in total.
 
-[[model download]](http://gofile.me/4B76q/yobaWLDtb)
 
-[[samples download]](http://gofile.me/4B76q/RkQxQuKvY)
+~[[model download]](http://gofile.me/4B76q/yobaWLDtb)~
+
+~[[samples download]](http://gofile.me/4B76q/RkQxQuKvY)~
+
+Model/samples download links are expired. 
 
 ```shell
 python3 generate.py --init_from <model_path> --gpu <gpu_id> --out_dir <out_dir>
